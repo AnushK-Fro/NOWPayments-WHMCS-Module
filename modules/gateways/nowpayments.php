@@ -104,7 +104,7 @@ function nowpayments_link($params)
 
     $htmlOutput = '<a class="btn btn-success btn-sm" id="btnPayNow" data-toggle="modal" data-target="#nowpaymentsModal">Pay Now</a>';
     $htmlOutput .= ' </a>';
-        $invoiceUrl = $response_data["invoice_url"];
+    $invoiceUrl = $response_data["invoice_url"];
 
 $htmlOutput .= '
 <div class="modal fade" id="nowpaymentsModal" tabindex="-1" role="dialog" aria-labelledby="nowpaymentsModalLabel" aria-h idden="true">
@@ -129,9 +129,5 @@ $htmlOutput .= '
 </div>
 
 ';
-
-
-        $htmlOutput .= $javascript;
-
     return $htmlOutput;
 }
