@@ -1,0 +1,1 @@
+This is a customized version of the NOWPayments WHMCS module. The only difference is that it uses the NOWPayments API to generate order URLs, which allows for more control (e.g., you may make the client cover any transaction fees). The only changes have been made in the `/modules/gateways/nowpayments.php` file, the other files are the same from the official WHMCS module.
